@@ -21,6 +21,7 @@
 	<link rel="stylesheet" type="text/css" href="/include/rs-plugin/css/settings.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="/include/rs-plugin/css/layers.css">
 	<link rel="stylesheet" type="text/css" href="/include/rs-plugin/css/navigation.css">
+	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
 
 	<!-- Document Title
@@ -66,10 +67,58 @@
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
+		<div class="elfsight-app-90bf79e3-c0ee-47bd-bb4b-9c34c6bc7c33"></div>
+
+		<!-- Top Bar
+		============================================= -->
+		<div id="top-bar" class="dark" style="background-color: #000000;">
+			<div class="container">
+
+				<div class="row justify-content-between align-items-center">
+
+					<div class="col-12 col-lg-auto">
+						<p class="mb-0 d-flex justify-content-center justify-content-lg-start py-3 py-lg-0"><strong>Free U.S. Shipping on Order above $... Easy Returns.</strong></p>
+					</div>
+
+					<div class="col-12 col-lg-auto d-none d-lg-flex">
+						
+						{%- comment -%}
+						<!-- Top Links
+						============================================= -->
+						<div class="top-links">
+							<ul class="top-links-container">
+								<li class="top-links-item"><a href="#">About</a></li>
+								<li class="top-links-item"><a href="#">FAQS</a></li>
+								<li class="top-links-item"><a href="#">Blogs</a></li>
+								<li class="top-links-item"><a href="#">EN</a>
+									<ul class="top-links-sub-menu">
+										<li class="top-links-item"><a href="#"><img src="images/icons/flags/french.png" alt="French"> FR</a></li>
+										<li class="top-links-item"><a href="#"><img src="images/icons/flags/italian.png" alt="Italian"> IT</a></li>
+										<li class="top-links-item"><a href="#"><img src="images/icons/flags/german.png" alt="German"> DE</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div><!-- .top-links end -->
+						{%- endcomment -%}
+
+						<!-- Top Social
+						============================================= -->
+						<ul id="top-social">
+							<li><a href="#" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+							<li><a href="#" class="si-instagram"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
+							<li><a href="tel:+1.11.85412542" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">(000) 000-0000</span></a></li>
+							<li><a href="mailto:info@premium420paper.com" class="si-email3"><span class="ts-icon"><i class="icon-envelope-alt"></i></span><span class="ts-text">info@premium420paper.com</span></a></li>
+						</ul><!-- #top-social end -->
+
+					</div>
+				</div>
+
+			</div>
+		</div>
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="header transparent-header dark" data-sticky-class="not-dark">
+		<header id="header" class="header transparent-header" data-sticky-class="not-dark">
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row">
@@ -95,7 +144,8 @@
 							<!-- Top Search
 							============================================= 
 							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+								<a href="#" id="top-search-trigger"><i class="icon	 
+									       -line-search"></i><i class="icon-line-cross"></i></a>
 							</div><!-- #top-search end -->
 
 							<!-- Top Cart
@@ -157,6 +207,9 @@
 								<li class="menu-item">
 									<a class="menu-link" href="https://premium420shop.com"><div>Merchandise</div></a>
 								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="/shop"><div>Rolling Papers</div></a>
+								</li>
 							</ul>
 
 						</nav><!-- #primary-menu end -->
@@ -200,9 +253,9 @@
 									<i class="icon-facebook"></i>
 								</a>
 
-								<a href="#" class="social-icon si-small si-borderless si-twitter">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
+								<a href="#" class="social-icon si-small si-borderless si-instagram">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
 								</a>
 								{%- comment -%}
 								<a href="#" class="social-icon si-small si-borderless si-gplus">
