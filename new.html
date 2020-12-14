@@ -197,7 +197,8 @@ title: New
 		============================================= -->
 		<section id="content">
 			<div class="content-wrap py-0">
-
+				
+				{%- comment -%}
 				<div class="section mt-0"  style="padding: 100px 0;">
 					<div class="container">
 
@@ -234,6 +235,7 @@ title: New
 
 					</div>
 				</div>
+				{%- endcomment -%}
 
 				<div class="container clearfix">
 
@@ -311,7 +313,7 @@ title: New
 						</div>
 					</div>
 				</div>
-
+				{%- comment -%}
 				<div class="section clearfix"  style="padding: 80px 0;">
 					<div class="container clearfix">
 
@@ -446,6 +448,7 @@ title: New
 
 					</div>
 				</div>
+				{%- endcomment -%}
 
 				<div class="section bg-transparent">
 					<div class="container clearfix">
@@ -454,7 +457,7 @@ title: New
 								<div id="oc-images" class="owl-carousel image-carousel carousel-widget custom-js">
 
 									<div class="oc-item">
-										<a href="#"><img src="/demos/ecommerce/images/featured/1.jpg" alt="Image 1"></a>
+										<a href="#"><img src="/images/paper-packaging.jpg" alt="Image 1"></a>
                                     </div>
                                     {%- comment -%}
 									<div class="oc-item">
@@ -479,21 +482,25 @@ title: New
 							<div class="col-lg-5 offset-lg-1">
 								<div class="featured-item topmargin">
 									<div class="item-title">
-										<div class="before-heading font-weight-semibold ls5"><a href="#" style="color: #aab7bd !important;">Leather Bags <i class="icon-angle-right"></i></a></div>
-										<h3><a href="#">Lady Shoulder Bag.</a></h3>
+										<div class="before-heading font-weight-semibold ls5"><a href="#" style="color: #aab7bd !important;">Rolling Papers <i class="icon-angle-right"></i></a></div>
+										<h3><a href="#">King Slim.</a></h3>
 									</div>
+									{%- comment -%}
 									<div class="item-meta font-secondary">
 										SKU: 8465415.
 										Design: Leather / Blue
 									</div>
+									{%- endcomment -%}
 									<div class="clear"></div>
 									<div class="item-desc">
-										<p>Proactively empower highly efficient growth strategies Completely enhance inexpensive best practices before front-end content. Completely procrastinate innovative vortals through maintainable leadership skills. Continually foster business sources for viral leadership skills.</p>
+										<p>...</p>
 									</div>
+									{%- comment -%}
 									<div class="item-color bottommargin-sm">
 										<span>Available Colors:</span>
 										<div id="item-color-dots" class="owl-dots"></div>
 									</div>
+									{%- endcomment -%}
 									<div class="button button-border button-circle m-0 font-secondary">View Details</div>
 								</div>
 							</div>
@@ -501,8 +508,7 @@ title: New
 					</div>
 				</div>
 
-				<div class="clear"></div>
-
+				{%- comment -%}
 				<div class="row align-items-stretch bottommargin clearfix">
 					<div class="col-md-6" style="background: url('/demos/ecommerce/images/sections/1.jpg') center 45% no-repeat; background-size: cover; padding: 0 0 500px;">
 						<div class="section-content topmargin-sm">
@@ -586,26 +592,61 @@ title: New
 						</div>
 					</div>
 				</div>
+				{%- endcomment -%}
 
-				<div class="section dark mb-0">
-					<div class="container clearfix">
+				<div class="section mb-0">
+					<div class="container">
 
-						<div class="row payments-info">
-							<div class="col-lg-6">
-								<p class="lead m-0">Free Shipping on Orders of <strong>$199</strong> or above.</p>
+						<div class="row col-mb-50">
+							<div class="col-sm-6 col-lg-3">
+								<div class="feature-box fbox-plain fbox-dark fbox-sm">
+									<div class="fbox-icon">
+										<i class="icon-thumbs-up2"></i>
+									</div>
+									<div class="fbox-content">
+										<h3>100% Original</h3>
+										<p class="mt-0">...</p>
+									</div>
+								</div>
 							</div>
-							<div class="col-lg-6">
-								<ul class="payment-cards clearfix" style="margin-top: 5px;">
-									<li><img src="/demos/xmas/images/cards/visa.svg" alt="Visa"></li>
-									<li><img src="/demos/xmas/images/cards/mc.svg" alt="Master Card"></li>
-									<li><img src="/demos/xmas/images/cards/ae.svg" alt="American Express"></li>
-									<li><img src="/demos/xmas/images/cards/pp.svg" alt="PayPal"></li>
-									<li><img src="/demos/xmas/images/cards/sk.svg" alt="Skrill"></li>
-									<li><img src="/demos/xmas/images/cards/2co.svg" alt="2CheckOut"></li>
-									<li><img src="/demos/xmas/images/cards/wu.svg" alt="Western Union"></li>
-								</ul>
+
+							<div class="col-sm-6 col-lg-3">
+								<div class="feature-box fbox-plain fbox-dark fbox-sm">
+									<div class="fbox-icon">
+										<i class="icon-credit-cards"></i>
+									</div>
+									<div class="fbox-content">
+										<h3>Payment Options</h3>
+										<p class="mt-0">We accept PayPal, Visa, MasterCard and American Express.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3">
+								<div class="feature-box fbox-plain fbox-dark fbox-sm">
+									<div class="fbox-icon">
+										<i class="icon-truck2"></i>
+									</div>
+									<div class="fbox-content">
+										<h3>Free Shipping</h3>
+										<p class="mt-0">...</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3">
+								<div class="feature-box fbox-plain fbox-dark fbox-sm">
+									<div class="fbox-icon">
+										<i class="icon-undo"></i>
+									</div>
+									<div class="fbox-content">
+										<h3>30-Days Returns</h3>
+										<p class="mt-0">...</p>
+									</div>
+								</div>
 							</div>
 						</div>
+
 					</div>
 				</div>
 			</div>
